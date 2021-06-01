@@ -62,7 +62,7 @@ export default function Home(): JSX.Element {
 
         {hasNextPage && (
           <Button onClick={() => fetchNextPage()}>
-            {isFetchingNextPage ? 'Carregando imagens...' : 'Carregar mais'}
+            {isFetchingNextPage ? 'Carregando imagens... ' : 'Carregar mais'}
           </Button>
         )}
       </Box>
